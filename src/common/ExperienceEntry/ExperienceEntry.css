@@ -1,0 +1,90 @@
+.entry-card {
+    display: flex;
+    /* background-color: rgba(41, 39, 76, 1); */
+    justify-content: flex-start;
+    align-items: center;
+    margin: 200px;
+    /* width: 1000px;
+    height: 300px;
+    border-radius: 50px; */
+    color: white;
+    gap: 50px;
+}
+
+.entry-img {
+    position: absolute;
+}
+
+.entry-info {
+    color: #29274C;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin: 50px;
+}
+
+.role-stats {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-items: center;
+    width: 300px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.logo {
+    height: 150px;
+    border-radius: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-items: center;
+}
+
+.company {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    line-height: 0.5;
+    
+}
+
+.role {
+    font-size: 1rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    line-height: 0.5;
+}
+
+.dates {
+    font-size: .8rem;
+    line-height: 0.5;
+}
+
+.role-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 600px;
+    
+}
+
+.tech {
+    font-size: 1.25rem;
+}
+
+.tasks-header {
+    font-size: 1.25rem;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+.tasks {
+    font-size: 1rem;
+    padding-left: 20px;
+}

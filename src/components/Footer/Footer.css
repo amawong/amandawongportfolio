@@ -1,0 +1,35 @@
+/* Footer.css */
+.foot {
+    display: flex;
+    align-items: center;
+    color: #29274C; 
+    padding: 20px; 
+    background-color: aliceblue;
+    max-width: 100%;
+  }
+  
+  .footer-content {
+    text-align: center;
+    margin: 0 auto; /* Center the content */
+    padding: 0 20px; /* Side padding */
+  }
+
+  .twitter {
+    width: 45px !important;
+  }
+
+  .foot img {
+    width: 50px;
+  }
+
+  
+  .foot a {
+    color: #29274C; /* Light blue color for links */
+    text-decoration: none; /* No underline */
+    margin: 0 15px; /* Margin between links */
+  }
+  
+  .foot a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  

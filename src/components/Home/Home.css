@@ -1,0 +1,141 @@
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: linear-gradient(to top, #00f, #0ff); */
+    height: 800px;
+    width: 100vw;
+    color:#29274C;
+    
+    
+}
+
+.section-one-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    margin-left: 10%;
+    color: #29274C;
+
+}
+
+.jellyfish {
+    display: inline-block;
+    animation: bounce 3s ease infinite;
+}
+
+.shapes {
+}
+
+.line1 {
+    position: relative;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.yellow-rectangle {
+    display: block;
+    width: 550px;
+    height: auto;
+}
+
+.intro-header-one {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-size: 36px;
+}
+
+.line2 {
+    position: relative;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.red-rectangle {
+    display: block;
+    width: 770px;
+    height: auto;
+}
+
+.intro-header-two {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.amanda {
+    font-size: 80px;
+    color: #29274C;
+}
+
+
+@keyframes bounce {
+    0%, 50% {
+      transform: translateY(0);
+    }
+    25%, 75% {
+      transform: translateY(-5px); /* Moves the text up */
+    }
+}
+
+.line3 {
+    position: relative;
+    display: inline-block;
+    margin-left: 100px;
+    color: white;
+}
+
+.blue-rectangle1 {
+    display: block;
+    width: 600px;
+    height: auto;
+}
+
+.intro-header-three {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-size: 36px;
+}
+
+.line4 {
+    position: relative;
+    display: inline-block;
+    margin-left: 100px;
+    color: white;
+}
+
+.blue-rectangle2 {
+    display: block;
+    width: 600px;
+    height: auto;
+}
+
+.desc-anim {
+    position: absolute;
+    text-decoration: underline;
+    cursor: pointer;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-size: 36px;
+}
+
+
+
+.section-one-img {
+    margin-right: 100px;
+    padding: 100px;
+    height: 300px;
+    width: 20vw;
+    overflow: hidden;
+}

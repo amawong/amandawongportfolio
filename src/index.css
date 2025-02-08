@@ -1,0 +1,24 @@
+:root {
+  font-family: "Karla", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #E3F2FD;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  overflow-x: hidden;
+}
+
+a {
+  font-weight: 500;
+  color: #29274C;
+  text-decoration: inherit;
+}

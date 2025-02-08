@@ -1,0 +1,197 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+    padding-top: 5%;
+    background-color: #E3F2FD;
+    width: 100vw;
+    color: #29274C;
+}
+
+.about-header-rect {
+    position: absolute;
+}
+
+.about-me {
+    position: relative;
+    font-size: 2.25rem;
+    margin-top: 10px;
+}
+
+.about-contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+    gap: 200px;
+}
+
+.about-img {
+}
+
+.about-text-yellow {
+    position: absolute;
+    margin-left: 2%;
+}
+
+.about-text-red {
+    position: absolute;
+    margin-top: 2%;
+}
+
+.about-pg {
+    position: relative;
+    font-size: 1.563rem;
+    max-width: 575px;
+    margin-top: 10%;
+    padding: 30px;
+}
+
+.img-back {
+    display: flex;
+    justify-content: center;
+    background-color: #DB5D5D;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.about-img {
+}
+
+.edu-skills{
+    display: flex;
+    gap: clamp(200px, 2vw, 24px);
+    color:#29274C;
+
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edu-header {
+    position: relative;
+    width: 300px;
+}
+
+.pencil {
+    position: absolute;
+    object-fit: contain; /* Ensures transparent areas are preserved and image fits */
+    left: 0;
+}
+
+.edu-text {
+    position: relative;
+    padding-top: 8px;
+    padding-left: 70px;
+    font-size: 36px;
+    gap: 0;
+}
+
+.paper {
+    position: relative;
+    padding-top: 60px;
+}
+
+.paper-img {
+    position: absolute;
+    width: 620px;
+}
+
+.paper-text {
+    position: relative;
+    width: 500px;
+    padding-top: 50px;
+    padding-left: 90px;
+    font-size: 25px;
+    line-height: 38px;
+}
+
+.classes-header {
+    font-size: 25px;
+    margin-top: 20px;
+    line-height: 0;
+}
+
+.classes {
+    font-size: 20px;
+    line-height: 38px;
+    list-style: square;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills-Rect {
+    position: absolute;
+}
+
+.skills-header-text {
+    position: relative;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 36px;
+}
+
+.skills-text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 290px;
+    
+}
+
+.sticky1 {
+    position: absolute;
+    margin-top: 20px;
+}
+
+.sticky1-text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.688rem;
+    margin-top: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.lang-head {
+    line-height: 0;
+}
+
+.lang-list {
+    list-style-type: none;
+}
+
+.lang-list li::before {
+    content: '✔'; /* Add checkmarks */
+    color: green;
+    font-size: 25px;
+    margin-right: 10px; 
+}
+
+.sticky2 {
+    position: absolute;
+    margin-top: 200px;
+}
+
+.sticky2-text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    max-width: 250px;
+    line-height: 28px;
+    gap: 20px;
+    margin-top: 260px;
+    padding-left: 30px;
+}
